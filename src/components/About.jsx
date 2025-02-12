@@ -47,11 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+          I'm Evan Wu, a full-stack developer with four years of experience, primarily focusing on data platform development.
+          I have expertise in Rust, C, Java, and Scala, along with proficiency in countless frameworks.
+          As a strong believer in Rust and LLM technologies, I'm currently focusing on building an AI-powered travel app using Flutter and Python.
+
+          My experience spans across handling PB-scale data, designing data warehouses and complex data models,
+          developing scalable back-end architectures, integrating numerous APIs, and implementing real-time ETL pipelines.
+          I’ve also built profitable websites, worked in marketing, and crafted visually appealing UI/UX for front-end applications.
+          Whether it's designing efficient storage solutions, optimizing large-scale systems, or creating AI-driven applications,
+          I bring a deep technical skill set combined with a passion for innovation. Let's collaborate to build something groundbreaking!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -21,8 +21,11 @@ import {
   shopify,
   carrent,
   jobit,
+  travelai,
+  zhoupu,
+  weier,
   tripguide,
-  threejs,
+  threejs, furniture_custom,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "App Developer",
     icon: mobile,
   },
   {
@@ -116,55 +119,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Zhoupu Data Co., Ltd",
+    icon: zhoupu,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2021 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained a multi-tenant Canal real-time data collection platform.",
+      "Optimized the FlinkCDC replenishment process and explored replacing Canal with Flink CDC for data collection.",
+      "Designed and implemented real-time data warehouses, including development of real-time wide tables and dimension tables.",
+      "Built API services for data aggregation and real-time analytics.",
+      "Automated routine tasks using scripting languages to improve efficiency and reduce manual errors.",
+      "Integrated real-time streaming technologies for business-critical monitoring and analytics.",
+      "Developed a full-domain marketing user profile label system and maintained data warehouses across seven domains.",
+      "Constructed a standardized data warehouse indicator system and created data lexicons.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Weiera Technology Co., Ltd",
+    icon: weier,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2019 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated on ETL (Extract, Transform, Load) tasks, ensuring data integrity and pipeline stability.",
+      "Fine-tuned query performance and optimized database structures for efficient data retrieval and reporting.",
+      "Enhanced collaboration across teams by creating detailed technical documentation for big data solutions.",
+      "Developed a data quality rule system and standardized data warehouse development processes.",
+      "Migrated legacy systems to cloud-based platforms for improved scalability and performance.",
+      "Implemented real-time streaming technologies and developed visualization tools for strategic decision-making.",
+      "Conducted performance testing to optimize system configurations and maximize resource utilization.",
     ],
   },
 ];
@@ -172,93 +156,114 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+        "Evan is an outstanding full-stack developer with a deep understanding of data processing and scalable architecture.",
+    name: "Alex Johnson",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Tech Innovations",
+    image: "https://randomuser.me/api/portraits/men/10.jpg",
+  },
+  {
+    testimonial:
+        "Evan's expertise in big data and real-time streaming transformed our analytics infrastructure.",
+    name: "Sophia Lee",
+    designation: "Data Engineer",
+    company: "DataFlow Inc.",
+    image: "https://randomuser.me/api/portraits/women/12.jpg",
+  },
+  {
+    testimonial:
+        "His ability to integrate AI-driven insights into applications makes him a game-changer in the industry.",
+    name: "Michael Chen",
+    designation: "AI Researcher",
+    company: "DeepTech Labs",
+    image: "https://randomuser.me/api/portraits/men/14.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI-Powered Travel App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An AI-driven travel companion that provides real-time itinerary recommendations, booking assistance, and smart trip planning.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "AI Agent",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: travelai,
+    source_code_link: "https://www.nicedays.ai/",
   },
   {
-    name: "Job IT",
+    name: "Chicago Global Furniture Customization",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A platform offering fully customizable furniture solutions tailored to global clients, integrating AI-driven design recommendations and real-time order tracking.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Supabase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "3D Visualization",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
+    image: furniture_custom,
+    source_code_link: "https://furnituresmart.solutions/",
+  },,
   {
-    name: "Trip Guide",
+    name: "Real-time Data Platform",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A high-performance real-time data processing system built for large-scale business intelligence, integrating Flink, Kafka, and Canal.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flink",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Kafka",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Canal",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nicedays233",
+  },
+  {
+    name: "Marketing User Profile System",
+    description:
+        "A full-domain marketing user profiling system that integrates data warehouse management, real-time data processing, and AI-driven recommendations.",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Warehouse",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ETL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/nicedays233",
   },
 ];
 

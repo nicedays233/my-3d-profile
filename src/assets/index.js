@@ -23,13 +23,16 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import zhoupu from "./company/zhoupu.png";
+import weier from "./company/weier.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import travelai from "./travelai.png";
+import furniture_custom from "./furniture_custom.png";
 export {
   logo,
   backend,
@@ -58,5 +61,9 @@ export {
   tesla,
   carrent,
   jobit,
+  zhoupu,
+  weier,
+  travelai,
+  furniture_custom,
   tripguide,
 };
