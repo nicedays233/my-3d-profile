@@ -25,7 +25,11 @@ import {
   zhoupu,
   weier,
   tripguide,
-  threejs, furniture_custom,
+  threejs,
+  furniture_custom,
+  aiProperty,
+  aiCompanion,
+  niceday,
 } from "../assets";
 
 export const navLinks = [
@@ -118,6 +122,21 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Founder & CEO",
+    company_name: "Niceday LLC",
+    icon: niceday,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Present",
+    points: [
+      "Founded and led the development of an AI-powered travel companion application using Flutter and Python.",
+      "Architected and implemented intelligent itinerary planning system with real-time recommendations.",
+      "Built scalable backend infrastructure to handle complex AI agent workflows and user interactions.",
+      "Established strategic partnerships and go-to-market strategies for the travel tech platform.",
+      "Led product development from concept to launch, managing full technology stack and business operations.",
+      "Integrated advanced AI/LLM technologies to deliver personalized travel experiences.",
+    ],
+  },
   {
     title: "Software Engineer",
     company_name: "Zhoupu Data Co., Ltd",
@@ -222,7 +241,49 @@ const projects = [
     ],
     image: furniture_custom,
     source_code_link: "https://furnituresmart.solutions/",
-  },,
+  },
+  {
+    name: "MyHome365 AI Property Management",
+    description:
+        "An AI-powered property management platform that streamlines rental operations, tenant communications, maintenance scheduling, and financial reporting for property managers and landlords.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI Agent",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PropTech",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aiProperty,
+    source_code_link: "https://www.myhome365.ca/",
+  },
+  {
+    name: "Transwarp AI Companion",
+    description:
+        "An innovative AI-powered parent-child companion platform that enhances family bonding through interactive activities, educational content, and personalized engagement recommendations.",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Family Tech",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aiCompanion,
+    source_code_link: "https://www.transwarp.tech/",
+  },
   {
     name: "Real-time Data Platform",
     description:

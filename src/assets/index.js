@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import zhoupu from "./company/zhoupu.png";
 import weier from "./company/weier.png";
+import niceday from "./company/niceday.jpeg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -33,6 +34,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import travelai from "./travelai.png";
 import furniture_custom from "./furniture_custom.png";
+import aiProperty from "./ai-property.jpg";
+import aiCompanion from "./ai-companion.jpg";
 export {
   logo,
   backend,
@@ -63,7 +66,10 @@ export {
   jobit,
   zhoupu,
   weier,
+  niceday,
   travelai,
   furniture_custom,
   tripguide,
+  aiProperty,
+  aiCompanion,
 };
